@@ -14,7 +14,7 @@ const Header = () => {
         <div className='block md:hidden'>
           <img src={MenuIcon} alt="menu icon" onClick={handleMobileNav} />
         </div>
-        <div className={`${isNavOpen ? 'block' : 'hidden'}`}>
+        <div className={`${isNavOpen ? 'block' : 'hidden'} md:block`}>
           <NavLink 
             to="/" 
             className={({isActive}) => isActive ? "active text-red-500 px-4 mx-2 uppercase" : "px-4 mx-2 uppercase"}
