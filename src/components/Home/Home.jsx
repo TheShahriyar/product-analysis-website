@@ -4,8 +4,7 @@ import Review from '../Review/Review';
 
 const Home = () => {
   return (
-    <div>
-      <h1>This is Homepage</h1>
+    <div className=''>
       <Banner />
       <Review />
     </div>
